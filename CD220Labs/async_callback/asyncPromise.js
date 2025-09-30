@@ -25,7 +25,8 @@ console.log(methCall);
 // Handling the resolved and rejected states of the promise
 methCall.then(
     // Logging the file data if the promise is resolved
-    (data) => console.log(data),
+    (data) => console.log(data)
+).catch(
     // Logging an error message if the promise is rejected
     (err) => console.log("Error reading file")
 );
