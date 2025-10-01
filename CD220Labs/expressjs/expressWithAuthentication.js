@@ -88,6 +88,6 @@ app.get("/auth/get_message", (req, res) => {
   return res.status(200).json({ message: "Hello, You are an authenticated user. Congratulations!" });
 });
 
-const PORT = 5000; // Define the port number
+const PORT = 5555; // Define the port number
 
 app.listen(PORT, () => console.log("Server is running")); // Start the server and listen on the specified port
